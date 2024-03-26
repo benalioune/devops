@@ -20,7 +20,7 @@ export default function Home() {
       </div>
 
       {/* Section "C'est quoi DevOps et son utilité" */}
-      <section className="max-w-3xl mx-auto mb-12 text-center lg:text-left">
+      <section className="max-w-3xl mx-auto mb-12 text-center lg:text-left text-justify">
         <h2 className="text-3xl font-semibold mb-4">Qu'est-ce que DevOps et quelle est son utilité ?</h2>
         <p className="text-lg">
           DevOps est une méthodologie visant à unifier le développement logiciel (Dev) et les opérations informatiques (Ops) en favorisant la collaboration et la communication entre les équipes. Son objectif principal est d'automatiser et de rationaliser le processus de développement logiciel pour permettre des déploiements plus rapides, fiables et fréquents.
@@ -30,14 +30,17 @@ export default function Home() {
         </p>
       </section>
 
-        <nav className="max-w-5xl w-full flex justify-between font-mono text-sm mb-8 lg:mb-0">
-          <Link href="/crypto">
-            <span className="border-b border-gray-300 pb-6 pt-8 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">Crypto Monnaie</span>
-          </Link>
-          <Link href="/ether">
-            <span className="border-b border-gray-300 pb-6 pt-8 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">Conversion</span>
-          </Link>
-        </nav>
+      <nav className="max-w-5xl w-full flex justify-center items-center font-mono text-sm mb-8 lg:mb-0">
+        <Link href="/crypto">
+          <button className="border border-transparent rounded-md shadow-sm py-2 px-4 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl text-base font-medium text-white hover:from-zinc-300 lg:py-2 lg:text-lg lg:px-8">Crypto Monnaie</button>
+        </Link>
+        <Link href="/ether">
+          <button className="ml-4 border border-transparent rounded-md shadow-sm py-2 px-4 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl text-base font-medium text-white hover:from-zinc-300 lg:py-2 lg:text-lg lg:px-8">Conversion</button>
+        </Link>
+      </nav>
+
+
+
       
     </main>
   );
