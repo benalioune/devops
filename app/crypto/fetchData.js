@@ -9,3 +9,13 @@ export async function getCryptoData() {
         throw error;
     }
 }
+
+<div>
+    {Object.entries(data).map(([key, value]) => (
+        <div key={key}>
+            <h2 className="text-3xl font-bold underline">{key}</h2>
+            <p>Price in USD: {value.current_price}</p>
+            <p>Name: {value.name}</p>
+        </div>
+    ))}
+</div>
