@@ -21,9 +21,9 @@ export default function Home() {
 
       {/* Section "C'est quoi DevOps et son utilité" */}
       <section className="max-w-3xl mx-auto mb-12 text-center lg:text-left text-justify">
-        <h2 className="text-3xl font-semibold mb-4">Qu'est-ce que DevOps et quelle est son utilité ?</h2>
+        <h2 className="text-3xl font-semibold mb-4">Qu&apos;est-ce que DevOps et quelle est son utilité ?</h2>
         <p className="text-lg">
-          DevOps est une méthodologie visant à unifier le développement logiciel (Dev) et les opérations informatiques (Ops) en favorisant la collaboration et la communication entre les équipes. Son objectif principal est d'automatiser et de rationaliser le processus de développement logiciel pour permettre des déploiements plus rapides, fiables et fréquents.
+          DevOps est une méthodologie visant à unifier le développement logiciel (Dev) et les opérations informatiques (Ops) en favorisant la collaboration et la communication entre les équipes. Son objectif principal est d&apos;automatiser et de rationaliser le processus de développement logiciel pour permettre des déploiements plus rapides, fiables et fréquents.
         </p>
         <p className="text-lg mt-4">
           Les principaux avantages de DevOps incluent une plus grande agilité et flexibilité dans le développement logiciel, des déploiements plus rapides, une meilleure qualité du code, une réduction des coûts et une amélioration de la collaboration entre les équipes. En adoptant DevOps, les organisations peuvent améliorer leur efficacité opérationnelle et offrir des produits logiciels de meilleure qualité à leurs clients.
@@ -38,10 +38,6 @@ export default function Home() {
           <button className="ml-4 border border-transparent rounded-md shadow-sm py-2 px-4 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl text-base font-medium text-white hover:from-zinc-300 lg:py-2 lg:text-lg lg:px-8">Conversion</button>
         </Link>
       </nav>
-
-
-
-      
     </main>
   );
 }
