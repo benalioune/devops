@@ -25,7 +25,6 @@ function WalletComponent() {
                     method: 'eth_getBalance',
                     params: [accounts[0], 'latest'],
                 });
-                // Convertir le solde du wei à Ether
                 
                 setBalance(balance); // Afficher le solde avec 4 décimales
             } catch (error) {
